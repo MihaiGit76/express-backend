@@ -1,3 +1,4 @@
+// Express backend for LessonApp — handles lessons and orders
 const express = require('express');
 const { MongoClient, ObjectId, ServerApiVersion } = require('mongodb');
 const cors = require('cors');
@@ -107,3 +108,4 @@ async function startServer() {
 }
 
 startServer();
+
