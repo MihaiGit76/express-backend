@@ -1,0 +1,97 @@
+[{
+  "_id": {
+    "$oid": "69247a2495dcf530f2f8f283"
+  }
+},
+{
+  "_id": {
+    "$oid": "6924a93fc8a73a78a65cb86c"
+  },
+  "name": "Mihai",
+  "phone": "07123456789",
+  "cart": [
+    {
+      "lessonId": "6294f4fc12e7fd3d0726d3ae",
+      "subject": "Math",
+      "location": "London",
+      "price": 25
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "6924a9efc8a73a78a65cb86d"
+  },
+  "name": "Mihai",
+  "phone": "07123456789",
+  "cart": [
+    {
+      "lessonId": "6294f4fc12e7fd3d0726d3ae",
+      "subject": "Math",
+      "location": "London",
+      "price": 25
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "6924b480d641749f45f3f557"
+  },
+  "name": "Mihai",
+  "phone": "07123456789",
+  "cart": [
+    {
+      "lessonId": "6294f4fc12e7fd3d0726d3ae",
+      "subject": "Math",
+      "location": "London",
+      "price": 25
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "6924b5c2d6eb81b990fbf774"
+  },
+  "name": "Mihai",
+  "phone": "07123456789",
+  "cart": [
+    {
+      "lessonId": "6294f4fc12e7fd3d0726d3ae",
+      "subject": "Math",
+      "location": "London",
+      "price": 25
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "69276048d04cc053e264e006"
+  },
+  "name": "Mihai",
+  "phone": "1234567890",
+  "cart": [
+    {
+      "_id": "PUT_A_REAL_LESSON_ID_HERE",
+      "subject": "Math",
+      "location": "London",
+      "price": 100,
+      "spaces": 5
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "692871dbc31bfc9f9db2777b"
+  },
+  "name": "Mihai",
+  "phone": "1234567890",
+  "cart": [
+    {
+      "_id": "PUT_A_REAL_LESSON_ID_HERE",
+      "subject": "Math",
+      "location": "London",
+      "price": 100,
+      "spaces": 5
+    }
+  ]
+}]
