@@ -1,0 +1,90 @@
+{
+  "info": {
+    "name": "Lesson App API",
+    "_postman_id": "lesson-app-api-2025",
+    "description": "Complete API test collection for CW1: lessons, orders, updates, search, and static files.",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "item": [
+    {
+      "name": "Get Lessons",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "https://lesson-backend.onrender.com/lessons",
+          "protocol": "https",
+          "host": ["lesson-backend", "onrender", "com"],
+          "path": ["lessons"]
+        }
+      }
+    },
+    {
+      "name": "Create Order",
+      "request": {
+        "method": "POST",
+        "header": [
+          { "key": "Content-Type", "value": "application/json" }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"name\": \"Mihai\",\n  \"phone\": \"1234567890\",\n  \"cart\": [\n    { \"_id\": \"PUT_A_LESSON_ID_HERE\", \"subject\": \"Math\", \"location\": \"London\", \"price\": 100, \"spaces\": 5 }\n  ]\n}"
+        },
+        "url": {
+          "raw": "https://lesson-backend.onrender.com/orders",
+          "protocol": "https",
+          "host": ["lesson-backend", "onrender", "com"],
+          "path": ["orders"]
+        }
+      }
+    },
+    {
+      "name": "Update Lesson (General)",
+      "request": {
+        "method": "PUT",
+        "header": [
+          { "key": "Content-Type", "value": "application/json" }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"spaces\": 3,\n  \"price\": 120\n}"
+        },
+        "url": {
+          "raw": "https://lesson-backend.onrender.com/lesson/{{lessonId}}",
+          "protocol": "https",
+          "host": ["lesson-backend", "onrender", "com"],
+          "path": ["lesson", "{{lessonId}}"]
+        }
+      }
+    },
+    {
+      "name": "Search Lessons",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "https://lesson-backend.onrender.com/search?q=math",
+          "protocol": "https",
+          "host": ["lesson-backend", "onrender", "com"],
+          "path": ["search"],
+          "query": [
+            { "key": "q", "value": "math" }
+          ]
+        }
+      }
+    },
+    {
+      "name": "Get Lesson Image",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "https://lesson-backend.onrender.com/images/math.png",
+          "protocol": "https",
+          "host": ["lesson-backend", "onrender", "com"],
+          "path": ["images", "math.png"]
+        }
+      }
+    }
+  ]
+}
