@@ -37,7 +37,7 @@ let lessons;
 
 // ---- API ROUTES ----
 
-// GET all lessons
+// GET all lessons  this route gets all the lessons from the lesson collection on Mongodb
 app.get('/lessons', async (req, res) => {
   try {
     const results = await lessons.find().toArray();
