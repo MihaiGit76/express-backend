@@ -4,11 +4,11 @@ This is the backend for LessonApp. Includes Express # CST3144 Full Stack Submiss
 
 
 
-\## 🔗 Project Links
+# 🔗 Project Links
 
 
 
-\### Vue.js Frontend
+# Vue.js Frontend
 
 \- GitHub Repository: \[https://github.com/MihaiGit76/vue-frontend](https://github.com/MihaiGit76/vue-frontend)
 
@@ -16,7 +16,7 @@ This is the backend for LessonApp. Includes Express # CST3144 Full Stack Submiss
 
 
 
-\### Express.js Backend
+# Express.js Backend
 
 \- GitHub Repository: \[https://github.com/MihaiGit76/express-backend](https://github.com/MihaiGit76/express-backend)
 
@@ -24,7 +24,7 @@ This is the backend for LessonApp. Includes Express # CST3144 Full Stack Submiss
 
 
 
-\## 📦 Included Files
+# 📦 Included Files
 
 
 
@@ -40,7 +40,7 @@ This is the backend for LessonApp. Includes Express # CST3144 Full Stack Submiss
 
 
 
-\## ✅ Notes
+# ✅ Notes
 
 
 
