@@ -65,7 +65,7 @@ app.post('/orders', async (req, res) => {
   }
 });
 
-// SEARCH lessons
+// SEARCH lessons  method searches all the lessons against the subject location price and space according to what imput it gets from the user
 app.get('/search', async (req, res) => {
   try {
     const q = req.query.q;
