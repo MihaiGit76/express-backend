@@ -49,7 +49,7 @@ app.get('/lessons', async (req, res) => {
   }
 });
 
-// POST new order
+// POST new order     This route takes the order from the front enbd and saves it in the oredr collection on Mongodb
 app.post('/orders', async (req, res) => {
   try {
     const order = req.body;
