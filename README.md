@@ -1,6 +1,6 @@
 # Express Backend
 
-This is the backend for LessonApp. Includes Express # CST3144 Full Stack Submission — Mihai
+This is the backend for LessonApp. Includes Express # CST3144 Full Stack Submission — Mihai Popescu (M00976588)
 
 
 
@@ -36,7 +36,7 @@ This is the backend for LessonApp. Includes Express # CST3144 Full Stack Submiss
 
 \- `order.json` — Exported order collection from MongoDB Atlas
 
-\- `LessonsApp.postman\_collection.json` — Exported Postman collection with tested requests
+\- `LessonsApp.postman\_collection.json` — Exported Postman collection with tested requests.
 
 
 
@@ -46,7 +46,7 @@ This is the backend for LessonApp. Includes Express # CST3144 Full Stack Submiss
 
 \- All routes tested and working:
 
-&nbsp; - `GET /lessons`
+&nbsp; - `GET /lessons` 
 
 &nbsp; - `POST /orders`
 
